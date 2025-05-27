@@ -1,0 +1,51 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube Info - Copyright School</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>YouTube Info</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#questions">Questions</a></li>
+        <li><a href="#admin">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Welcome to YouTube Copyright School</h2>
+      <p>Learn about copyright rules through real questions and answers.</p>
+    </section>
+
+    <section id="questions">
+      <h2>Questions & Answers</h2>
+      <div id="qa-container"></div>
+    </section>
+
+    <section id="admin">
+      <h2>Admin Panel - Add New Q&A</h2>
+      <form id="qaForm">
+        <label for="question">Question:</label><br />
+        <textarea id="question" required></textarea><br />
+        <label for="answer">Answer:</label><br />
+        <textarea id="answer" required></textarea><br />
+        <button type="submit">Add Q&A</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 YouTube Info. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
